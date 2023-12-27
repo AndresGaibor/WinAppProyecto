@@ -35,28 +35,31 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(398, 14);
+            label1.Location = new Point(569, 23);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(44, 15);
+            label1.Size = new Size(67, 25);
             label1.TabIndex = 0;
             label1.Text = "Prueba";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(378, 218);
+            label2.Location = new Point(471, 430);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(50, 15);
+            label2.Size = new Size(151, 25);
             label2.TabIndex = 1;
-            label2.Text = "Prueba2";
+            label2.Text = "Erick- PullRequest";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
